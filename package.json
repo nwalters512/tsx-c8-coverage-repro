@@ -2,7 +2,7 @@
   "name": "tsx-c8-coverage-repro",
   "type": "module",
   "scripts": {
-    "test": "c8 --reporter text --reporter cobertura --reporter html tsx src/index.test.ts"
+    "test": "c8 --reporter text --reporter html tsx src/index.test.ts"
   },
   "dependencies": {
     "c8": "^9.1.0",
